@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: aqua;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image {
+  width: 100px;
+  height: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  float: left;
+}
+
+.header-bio {
+  float: left;
+  padding: 30px;
+}
+
+.contact-section {
+  float: right;
+  padding: 30px;
+}
+
+.contact-section p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-section p a:hover {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.clear-div{
+  clear: both;
+}
+
+.hr{
+  border: 3px solid black;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 100%;
+}
+
+
+/* main section start here */
+
+/* personal section start here*/
+
+.content{
+  margin-bottom: 30px;
+}
+
+.left-div{
+  float: left;
+  width: 30%;
+}
+
+.right-div{
+  float: right;
+  width: 70%;
+}
+
+.common-hr{
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+/* personal section end here*/
+
+
+
+/* educational section start here */
+
+.edu-template-left{
+    float: left;
+    width: 50%;
+}
+
+.edu-template-right{
+
+  float: right;
+  width: 50%;
+
+}
+
+
+/* educational section end here */
+
+
+/* main section end here */
+
+/* footer section start here */
+
+.footer-container{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container a{
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.footer-container a:hover{
+  text-decoration: underline;
+}
+
+.footer-container p{
+  color: white;
+  margin-top: 20px;
+}
+
+/* footer section end here */
